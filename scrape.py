@@ -64,3 +64,5 @@ for nombre, id_div in secciones_lista.items():
     resultados = extraer_lista_articulos(id_div)
     for r in resultados:
         print(nombre, r["titulo"], r["url"])
+
+input("\nPulsa ENTER para salir...")
